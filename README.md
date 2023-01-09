@@ -1,3 +1,42 @@
+# :star: React JS Crash Course 2023 - Build A Food Managing App
+ (Udemy course)
+
+---
+
+## :book: ¿ Que hay en este curso?
+
+Este curso enseña los conceptos de React, desde las bases, paso a paso.
+
+¿Qué se verá?
+
+- Core basics: cómo funciona el estado en React, cómo trabajar con los métodos del ciclos de vida.
+
+- Componentes Funcionales
+
+- Props(propiedades) y state(estados) 
+
+- Handle events(manejadores de eventos)
+
+- Traer data de APIS (fetch)
+
+- Renderizar listas y keys (llaves)
+
+- Qué es useState  y cómo manejar el state en un componente funcional.
+
+- Hook useEffect y manejar efectos secundarios en componentes funcionales.
+
+- Hook useContext y el manejo global del estado
+
+- Hook useReducer y manejo complejo del estado
+
+- implementar una aplicación de comida de React desde cero
+
+- Deplyar la aplicación en FireBase
+
+
+---
+
+##¿ Qué se crea?
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
