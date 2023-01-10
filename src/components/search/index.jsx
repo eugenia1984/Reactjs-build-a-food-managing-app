@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./styles.css";
-import { search } from "../../international";
+import { SEARCH } from "../../international";
 
 const Search = (props) => {
   const { getDataFromSearchComponent } = props;
@@ -22,10 +22,10 @@ const Search = (props) => {
         name="search"
         onChange={handleInpuValue}
         value={inputValue}
-        placeholder="Search recipies"
+        placeholder={SEARCH.placeholderTxt}
         id="search"
       />
-      <button type="submit">{search.txtBtn}</button>
+      <button type="submit">{SEARCH.txtBtn}</button>
     </form>
   );
 };
