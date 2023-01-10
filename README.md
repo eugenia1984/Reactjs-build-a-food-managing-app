@@ -60,9 +60,7 @@ Este curso enseña los conceptos de React, desde las bases, paso a paso.
 
 - <img src="https://img.icons8.com/office/30/null/react.png"/>  **React**
 
-- [**Spoonacular API**](https://spoonacular.com/food-api):
-
-GET ```https://api.spoonacular.com/recipes/complexSearch```
+- [**Spoonacular API**](https://spoonacular.com/food-api)
 
 - **Firebase**
 
