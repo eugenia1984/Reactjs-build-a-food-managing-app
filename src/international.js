@@ -1,7 +1,8 @@
 export const HOME_PAGE = {
   txtLoading: "Loading recipies! Please wait.",
   warningMessage: "Item is already present in favorites",
-  title: "Favorites"
+  title: "Favorites",
+  searchPH: "Search favorites",
 };
 
 export const SEARCH = {
@@ -15,4 +16,4 @@ export const RECIPE_ITEMS = {
 
 export const FAVORITE_ITEM = {
   txtBtn: "Remove from favourite",
-}
+};
