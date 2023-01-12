@@ -54,6 +54,9 @@ Este curso enseña los conceptos de React, desde las bases, paso a paso.
 
 - **useCallBack** y **useMemo** para mejorar la performance de la aplicación
 
+![image](https://user-images.githubusercontent.com/72580574/212095758-f2e6dd7b-8b36-48eb-a46e-3111ab57a819.png)
+
+
 ---
 
 ## Tecnologías <img src="https://img.icons8.com/office/30/null/maintenance.png"/>
