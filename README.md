@@ -40,7 +40,7 @@ Este curso enseña los conceptos de React, desde las bases, paso a paso.
 
 ![image](https://user-images.githubusercontent.com/72580574/211315037-a5b6c8c8-a7a8-4536-881f-2449b84f8ab5.png)
 
-- Se puede cambiar el tema (light / dark), para ver **context**, como crear /proveer / utilizar un contexto y el hook **useContext**. 
+- Se puede cambiar el tema (**light** / **dark**), para ver **context**, como crear /proveer / utilizar un contexto y el hook **useContext**. 
 
 - Un buscador, que al tipear se busca una comida. En esta sección vemos **state** y el hook **useState** . Y al hacer click en el botón de buscar se hace **llamado a una API**, por lo que se ve como mostrar **loading state**.
 
