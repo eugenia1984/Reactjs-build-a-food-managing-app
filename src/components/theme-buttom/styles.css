@@ -1,19 +1,4 @@
-.search {
-  display: flex;
-  gap: 16px;
-  justify-content: center;
-}
-
-@media screen and (max-width: 425px) {
-  .search {
-    flex-direction: column;
-  }
-}
-.search input {
-  padding: 10px 30px;
-}
-
-.search button {
+.theme-button {
   background-color: rgb(250, 100, 0);
   padding: 10px 20px;
   color: rgb(255, 255, 255);

@@ -9,7 +9,10 @@ import Title from "../../components/title";
 const reducer = (state, action) => {
   switch (action.type) {
     case "filterFavorites":
-      return state;
+      return {
+        ...state,
+        filteredValue: action.value,
+      };
 
     default:
       return state;
@@ -17,7 +20,7 @@ const reducer = (state, action) => {
 };
 
 const initialState = {
-  filterValue: "",
+  filteredValue: "",
 };
 
 const HomePage = () => {
@@ -29,7 +32,7 @@ const HomePage = () => {
   const [favorites, setFavorites] = useState([]);
   // state for api is succesfull or not
   const [apiCalledSuccess, setApiCalledSuccess] = useState(false);
-  // useREducer functionality
+  // useReducer functionality
   const [filteredState, dispatch] = useReducer(reducer, initialState);
 
   const getDataFromSearchComponent = (getData) => {
@@ -87,7 +90,7 @@ const HomePage = () => {
 
   // filter the favorites
   const filteredFavoritesItems = favorites.filter((item) =>
-    item.title.toLowerCase().includes(filteredState.filterValue)
+    item.title.toLowerCase().includes(filteredState.filteredValue)
   );
 
   return (
@@ -100,16 +103,18 @@ const HomePage = () => {
       {/* Show favorites items*/}
       <div className="favorites-wrapper">
         <Title headline={HOME_PAGE.title} nameClass={"favorites-title"} />
+        {/* Search favorites */}
         <div className="search-favorites">
           <input
             onChange={(event) =>
               dispatch({ type: "filterFavorites", value: event.target.value })
             }
-            value={filteredState.filterValue}
+            value={filteredState.filteredValue}
             name="searchfavorites"
             placeholder={HOME_PAGE.searchPH}
           />
         </div>
+        {/* Favorites list */}
         <div className="favorites">
           {filteredFavoritesItems && filteredFavoritesItems.length > 0
             ? filteredFavoritesItems.map((item, index) => (

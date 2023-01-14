@@ -3,7 +3,8 @@
   padding: 10px;
   box-shadow: 0px 0px 10px 0px rgba(250, 100, 0, 1);
   background-color: #fff;
-  width: 270px;
+  min-width: 120px;
+  width: 120px;
 }
 
 .favorite-item p {
@@ -11,7 +12,7 @@
   font-weight: 700;
   font-size: 20px;
   margin: 12px 0px;
-  min-height: 100px;
+  min-height: 178px;
 }
 
 .favorite-item img {

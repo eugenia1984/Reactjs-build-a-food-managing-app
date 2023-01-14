@@ -17,3 +17,7 @@ export const RECIPE_ITEMS = {
 export const FAVORITE_ITEM = {
   txtBtn: "Remove from favourite",
 };
+
+export const THEME_BUTTON = {
+  text: "Change theme"
+}
