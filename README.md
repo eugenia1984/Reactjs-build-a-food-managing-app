@@ -68,3 +68,7 @@ Este curso enseña los conceptos de React, desde las bases, paso a paso.
 - [**Firebase**](https://firebase.google.com/)
 
 ---
+
+Seguime en: [LinkedIn - maria-eugenia-costa](https://www.linkedin.com/in/maria-eugenia-costa/)
+
+---
